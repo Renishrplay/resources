@@ -244,6 +244,12 @@ function mx_player() {
     window.location.href = openMx;
 }
 
+function mx_player_beta() {
+    const openbisallink = bisallink;
+    const openMxbera = `intent:${openbisallink}#Intent;package=com.mxtech.videoplayer.beta;end`;
+    window.location.href = openMxbeta;
+}
+
 function playit_player() {
     const openbisallink = bisallink;
     const openPlayit = `playit://playerv2/video?url=${openbisallink}`;
