@@ -246,7 +246,7 @@ function mx_player() {
 
 function mx_player_beta() {
     const openbisallink = bisallink;
-    const openMxbera = `intent:${openbisallink}#Intent;package=com.mxtech.videoplayer.beta;end`;
+    const openMxbeta = `intent:${openbisallink}#Intent;package=com.mxtech.videoplayer.beta;end`;
     window.location.href = openMxbeta;
 }
 
